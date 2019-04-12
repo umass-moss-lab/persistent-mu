@@ -10,7 +10,7 @@ Clean language semantics for non-volatility is called *persistence*.  Managed la
 
 # Broader impacts
 
-The project will build on Mu, an existing virtual machine that has commercial interest.  A persistent virtual machine will save development effort and encourage creative use of persistence in applications.  This will contribute to innovation, reliability, and trustworthiness of software.  The project team will continue to engage in recruiting students from under-represented groups, including mentoring of future applicants and visits to historically minority institutions.
+The project will build on Mu (http://microvm.org), an existing virtual machine that has commercial interest.  A persistent virtual machine will save development effort and encourage creative use of persistence in applications.  This will contribute to innovation, reliability, and trustworthiness of software.  The project team will continue to engage in recruiting students from under-represented groups, including mentoring of future applicants and visits to historically minority institutions.
 
 # Project repository
 
