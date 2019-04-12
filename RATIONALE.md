@@ -1,3 +1,5 @@
+# Rationale for Persistent Mu
+
 [Mu](http://microvm.github.io/) is a language-independent virtual machine specification, designed to be a good target to which to compile managed languages (languages with automatic storage management ("garbage collection"), threads, etc.), comparable in level to [LLVM](https://llvm.org/).  (Mu, however, aims to be lightweight and matches better to an environment with dynamic code generation and optimization.)
 
 Meanwhile, the underlying hardware for the main memory of computers is evolving, and future computers are expected to have byte-addressable non-volatile main memory (NVM).  This is different from current dynamic ram (DRAM) in that it is non-volatile, and different from solid state disks, flash memory, etc., in that one can access and update individual bytes, as opposed to reading and writing whole blocks of data.  NVM may well partly or completely replace DRAM for main memory because NVM is physically denser, allowing more memory per card, etc.  However, its non-volatility makes it appealing for supporting "instant-on" recovery if power is lost.
